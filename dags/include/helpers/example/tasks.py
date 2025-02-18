@@ -7,7 +7,6 @@ from io import BytesIO
 import pandas as pd
 import os  
 import re
-import logging
 
 from airflow import DAG
 from airflow.models import Variable, TaskInstance

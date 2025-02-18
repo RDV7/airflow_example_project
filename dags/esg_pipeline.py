@@ -7,7 +7,9 @@ from airflow.providers.docker.operators.docker import DockerOperator
 from datetime import datetime, timedelta
 import requests
 
-from include.helpers.example.tasks import _apply_transform_module, _send_alert_discord, BUCKET_NAME
+# from include.helpers.example.tasks import _apply_transform_module, _send_alert_discord, BUCKET_NAME
+from example.tasks import _apply_transform_module, _send_alert_discord, BUCKET_NAME
+
 
 default_args = {
         'owner': 'airflow',

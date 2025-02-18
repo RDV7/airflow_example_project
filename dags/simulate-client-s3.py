@@ -6,7 +6,7 @@ from airflow.operators.python import PythonOperator
 from datetime import datetime, timedelta
 import requests
 
-from include.helpers.example.tasks import _load_esg_data_to_s3, _send_alert_discord
+from example.tasks import _load_esg_data_to_s3, _send_alert_discord
 
 SYMBOL = "AAPL"
 

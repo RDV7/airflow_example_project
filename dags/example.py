@@ -11,7 +11,7 @@ from airflow.providers.docker.operators.docker import DockerOperator
 from datetime import datetime, timedelta
 import requests
 
-from include.helpers.example.tasks import _get_stock_prices, _load_stock_prices_to_s3, _get_formatted_prices, _send_alert_discord, BUCKET_NAME
+from example.tasks import _get_stock_prices, _load_stock_prices_to_s3, _get_formatted_prices, _send_alert_discord, BUCKET_NAME
 
 SYMBOL = "AAPL"
 
