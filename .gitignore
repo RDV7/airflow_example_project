@@ -8,5 +8,7 @@ airflow-webserver.pid
 webserver_config.py
 airflow.cfg
 airflow.db
-include/
+include/data
 logs/
+.tar.gz
+.devcontainer

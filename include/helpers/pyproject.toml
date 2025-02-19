@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "example"
+version = "0.1.0"
+description = ""
+authors = ["Ruben de Villiers <ruben.de.villiers@infinium.consulting>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.12,<3.13"
+minio = "^7.2.15"
+apache-airflow = "^2.10.5"
+requests = "^2.32.3"
+pandas = "^2.2.3"
+datetime = "^5.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+

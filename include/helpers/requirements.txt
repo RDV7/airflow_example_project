@@ -1,0 +1,8 @@
+setuptools==75.6.0
+minio==7.1.14
+apache-airflow-providers-docker==3.7.1
+apache-airflow-providers-discord==3.9.0
+pandas
+openpyxl
+wheel
+twine
